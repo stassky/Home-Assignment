@@ -1,3 +1,3 @@
 FROM python:3
-ADD api.py /
-CMD [ "python3", "./api.py" ]
+ADD api-3.py /
+CMD [ "python3", "./api-3.py" ]
