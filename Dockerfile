@@ -1,7 +1,7 @@
 FROM python:3
 
-ADD test.py /
-
 RUN pip install flask
+
+COPY test.py /
 
 CMD [ "python", "./test.py" ]
